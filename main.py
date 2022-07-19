@@ -10,7 +10,7 @@ number_of_mels = 5
 startTime = time.time()
 
 app = Flask(__name__)
-data = data_class.Data(wifi=['WHome', 'adrenalin'], mel=['anton.shokin@gmail.com', 'Qawsed123'])
+data = data_class.Data(wifi=['', ''], mel=['', ''])
 mel_cloud = MEL_work.MelWork('', number_of_mels)
 
 def WorkPomps():
